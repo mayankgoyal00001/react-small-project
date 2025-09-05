@@ -5,6 +5,7 @@ import Meals from './components/Meals'
 import Calculator from './components/Calculator'
 import ToggleBackgroundColor from './components/ToggleBackgroundColor'
 import HiddenSearchBar from './components/HiddenSearchBar'
+import Testiomonals from './components/Testiomonals'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <Meals/> */}
       {/* <Calculator/> */}
       {/* <ToggleBackgroundColor/> */}
-      <HiddenSearchBar/>
+      {/* <HiddenSearchBar/> */}
+      <Testiomonals/>
     </div>
   )
 }

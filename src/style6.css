@@ -1,0 +1,65 @@
+/* Background setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1f1f1f, #333); /* dark gradient */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Testimonial card */
+.testimonials {
+  background: #e6ffff; /* light aqua */
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  max-width: 600px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Quote styling */
+.testimonials-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #222;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Author styling */
+.testimonials-author {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Navigation buttons container */
+.testimonials-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* space between Prev & Next */
+  margin-top: 10px;
+}
+
+/* Buttons */
+.testimonials-nav button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #00bcd4;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect */
+.testimonials-nav button:hover {
+  background: #0097a7;
+}

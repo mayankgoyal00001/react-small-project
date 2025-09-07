@@ -8,6 +8,7 @@ import HiddenSearchBar from "./components/HiddenSearchBar";
 import Testiomonals from "./components/Testiomonals";
 import { accordionData } from "./utils/content";
 import Accordain from "./components/Accordain";
+import Form from "./components/Form";
 
 const App = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -26,7 +27,7 @@ const App = () => {
       {/* <HiddenSearchBar/> */}
       {/* <Testiomonals/> */}
 
-      <div className="accordion">
+      {/* <div className="accordion">
         {accordionData.map(({ title, content }, index) => (
           <Accordain
             key={index}
@@ -36,7 +37,8 @@ const App = () => {
             onToggle={() => handleToggle(index)}
           />
         ))}
-      </div>
+      </div> */}
+      <Form/>
     </div>
   );
 };
